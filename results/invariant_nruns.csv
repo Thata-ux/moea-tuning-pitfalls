@@ -1,0 +1,9 @@
+alg,konvensi,n_artikel_eps0_2pct,n_usulan_k0_1,n_usulan_k0_2,rasio_dalam_antar
+NSGA2,"ref 1,1 (norm)",58,10,3,0.16084309531461063
+NSGA2,titik terjauh (mentah),6,8,2,0.13811336158408474
+SPEA2,"ref 1,1 (norm)",130,121,31,0.5611392291282177
+SPEA2,titik terjauh (mentah),11,83,21,0.4642191838205942
+SMS-EMOA,"ref 1,1 (norm)",120,226,57,0.7656299451793049
+SMS-EMOA,titik terjauh (mentah),12,174,44,0.6714173619045875
+MOEA/D-DE,"ref 1,1 (norm)",45793,224,56,0.7635533268077923
+MOEA/D-DE,titik terjauh (mentah),7710,287,72,0.8636584947130478

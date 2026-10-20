@@ -1,0 +1,5 @@
+alg,catatan,NORM_hv_norm,FAR_hv_norm,p_dinilai_norm,NORM_hv_far,FAR_hv_far,p_dinilai_far,NORM_pct_true,FAR_pct_true
+NSGA2,konfigurasi terbaik sama,,,,,,,,
+SPEA2,konfigurasi terbaik sama,,,,,,,,
+SMS-EMOA,konfigurasi terbaik sama,,,,,,,,
+MOEA/D-DE,,1.1303090897916013,1.1233218718019027,0.011498623474520206,18182.453685405068,18102.11738259658,0.0285087982770462,95.92900788858853,95.33600470414395

@@ -1,0 +1,9 @@
+alg,pilihan,cfg,pop_size,eta_cr,p_cr,eta_m,p_m,n_iters,F,CR,eta,delta
+NSGA2,terbaik-NORM,414,50,26.0,0.9,10.0,0.4,6,,,,
+NSGA2,terbaik-FAR,414,50,26.0,0.9,10.0,0.4,6,,,,
+SPEA2,terbaik-NORM,151,25,11.0,0.9,5.0,0.5,12,,,,
+SPEA2,terbaik-FAR,151,25,11.0,0.9,5.0,0.5,12,,,,
+SMS-EMOA,terbaik-NORM,375,20,6.0,0.85,5.0,0.5,15,,,,
+SMS-EMOA,terbaik-FAR,375,20,6.0,0.85,5.0,0.5,15,,,,
+MOEA/D-DE,terbaik-NORM,7,50,,,,0.5,6,3.6,1.0,45.0,0.9
+MOEA/D-DE,terbaik-FAR,394,75,,,,0.35,4,2.2,1.0,42.0,0.6

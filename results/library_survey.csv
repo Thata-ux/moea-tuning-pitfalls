@@ -1,0 +1,8 @@
+library,language,version_or_commit,checked_on,moead_variant,default_scalarization,normalized_by_default,normalization_option,evidence
+Metaheuristics.jl,Julia,v3.5.0 (2e7dc8f),2026-10-17,MOEAD_DE,Tchebycheff on raw objectives,no,none,src/algorithms/multiobjective/MOEAD_DE/weights_and_ideal.jl: g(fx; λ; z) = max λ_i |f_i - z_i|
+pymoo,Python,0.6.2,2026-10-17,MOEAD,Tchebycheff (2 obj) / PBI (>=3 obj) on raw objectives,no,none exposed in MOEAD (nadir never passed),pymoo/algorithms/moo/moead.py default_decomp; decomposition/tchebicheff.py uses |F - utopian| * w
+PlatEMO,MATLAB,d25e65d,2026-10-17,MOEAD; MOEADDE,PBI (MOEAD type=1); Tchebycheff on raw objectives (MOEADDE),no,MOEAD type=3 (normalized Tchebycheff); none in MOEADDE,Algorithms/Multi-objective optimization/MOEA-D/MOEAD.m lines 51-73; MOEA-D-DE/MOEADDE.m lines 56-57
+jMetal,Java,67de131,2026-10-17,MOEADBuilder; MOEADDEBuilder; legacy MOEAD,PBI / Tchebycheff; flag required by constructor,no (all default-configuration examples set normalizeObjectives = false),Tschebyscheff(boolean normalize),component/examples/multiobjective/moead/*.java; legacy AbstractMOEAD TCHE uses |f - z*| * λ
+jMetalPy,Python,fe3cd71,2026-10-17,MOEAD,Tschebycheff on raw objectives,no,none,src/jmetal/util/aggregation_function.py class Tschebycheff
+pagmo2,C++/Python,9cc585b,2026-10-17,moead,"decomposition=""tchebycheff"" on raw objectives",no,none,src/utils/multi_objective.cpp decompose_objectives: w_i |f_i - z_i|
+MOEA Framework,Java,9f2ce5a,2026-10-17,MOEAD,Chebyshev on raw objectives,no,none,src/org/moeaframework/algorithm/MOEAD.java fitness(): max w_i |f_i - z_i|
