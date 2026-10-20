@@ -5,7 +5,7 @@ This archive contains everything needed to reproduce the experiments, tables and
 > [Author names] (2026). *Reference points and objective scaling: two hidden choices that change the
 > conclusions of multi-objective algorithm tuning.* Manuscript submitted to *Soft Computing*.
 
-**DOI of this archive:** https://doi.org/10.5281/zenodo.[XXXXXXX]
+**DOI of this archive:** https://doi.org/10.5281/zenodo.23491830 
 
 ## What the study is about
 
