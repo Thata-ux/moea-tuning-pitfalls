@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article and this archive."
+type: software
+title: "Reference points and objective scaling in multi-objective algorithm tuning: code, data and results"
+version: "1.0.0"
+date-released: "2026-10-19"
+license:
+  - MIT
+  - CC-BY-4.0
+doi: "10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/Thata-ux/moea-tuning-pitfalls"
+keywords:
+  - hyperparameter optimization
+  - hypervolume
+  - reference point
+  - MOEA/D
+  - objective normalization
+  - replication study
+authors:
+  - family-names: "[Surname 1]"
+    given-names: "[Given names 1]"
+    affiliation: "Universitas Aisyah Pringsewu"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "[Surname 2]"
+    given-names: "[Given names 2]"
+    affiliation: "[Institution]"
+preferred-citation:
+  type: article
+  title: "Reference points and objective scaling: two hidden choices that change the conclusions of multi-objective algorithm tuning"
+  authors:
+    - family-names: "[Surname 1]"
+      given-names: "[Given names 1]"
+    - family-names: "[Surname 2]"
+      given-names: "[Given names 2]"
+  journal: "Soft Computing"
+  year: 2026
+  notes: "Submitted manuscript"
+references:
+  - type: data
+    title: "DataOptimizingOptimizers: Data produced for the paper Optimizing the Optimizers"
+    version: "2.0"
+    authors:
+      - family-names: "Pereira"
+        given-names: "Inês"
+    year: 2026
+    doi: "10.5281/zenodo.18344135"
+    publisher:
+      name: "Zenodo"
+    license: CC-BY-4.0
+  - type: article
+    title: "Optimizing the optimizers: Hyperparameter optimization for multi-objective metaheuristics"
+    authors:
+      - family-names: "Pereira"
+        given-names: "Inês"
+      - family-names: "Leitão"
+        given-names: "António"
+    journal: "Advanced Engineering Informatics"
+    volume: 74
+    start: "104690"
+    year: 2026
+    doi: "10.1016/j.aei.2026.104690"
+  - type: article
+    title: "An easy-to-use real-world multi-objective optimization problem suite"
+    authors:
+      - family-names: "Tanabe"
+        given-names: "Ryoji"
+      - family-names: "Ishibuchi"
+        given-names: "Hisao"
+    journal: "Applied Soft Computing"
+    volume: 89
+    start: "106078"
+    year: 2020
+    doi: "10.1016/j.asoc.2020.106078"

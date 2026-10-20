@@ -1,0 +1,12 @@
+# Versions used to produce the published results (Python 3.13)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pymoo==0.6.2
+# Only needed for the HPO comparison (scripts 20-21)
+optuna==5.0.0
+smac==2.4.1
+ConfigSpace==1.2.2
+scikit-optimize==0.10.2
